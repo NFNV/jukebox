@@ -1,9 +1,14 @@
-import React from "react";
-import { render } from "react-dom";
+import React from "react"
+import { render } from "react-dom"
+import HomePage from "./HomePage"
 
 function App() {
-  return <h1>Test</h1>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  )
 }
 
-const appDiv = document.getElementById("app");
-render(<App />, appDiv);
+const appDiv = document.getElementById("app")
+render(<App />, appDiv)
